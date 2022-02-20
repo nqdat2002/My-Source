@@ -1,0 +1,363 @@
+Delta = 3
+Gk = 18
+Delta = 80
+Gk = 92
+Delta = 116
+Gk = 125
+Delta = 172
+Gk = 178
+Delta = 197
+Gk = 200
+123456
+DELTA = 200
+FOPT = 200
+
+Delta = 123
+Gk = 129
+Delta = 215
+Gk = 218
+123465
+DELTA = 243
+FOPT = 200
+
+Delta = 96
+Gk = 105
+Delta = 129
+Gk = 135
+Delta = 136
+Gk = 139
+123546
+DELTA = 139
+FOPT = 139
+
+Delta = 121
+Gk = 127
+Delta = 167
+Gk = 170
+123564
+DELTA = 206
+FOPT = 139
+
+Delta = 108
+Gk = 117
+Delta = 154
+Gk = 160
+
+Delta = 200
+Gk = 206
+
+Delta = 45
+Gk = 57
+Delta = 125
+Gk = 134
+Delta = 141
+Gk = 147
+
+Delta = 153
+Gk = 159
+
+Delta = 101
+Gk = 110
+Delta = 189
+Gk = 195
+
+Delta = 126
+Gk = 132
+Delta = 144
+Gk = 147
+124563
+DELTA = 189
+FOPT = 139
+
+Delta = 52
+Gk = 61
+Delta = 70
+Gk = 76
+Delta = 86
+Gk = 89
+124635
+DELTA = 114
+FOPT = 114
+
+Delta = 144
+Gk = 150
+
+Delta = 24
+Gk = 36
+Delta = 112
+Gk = 121
+
+Delta = 57
+Gk = 66
+Delta = 137
+Gk = 143
+
+Delta = 64
+Gk = 70
+Delta = 82
+Gk = 85
+125463
+DELTA = 127
+FOPT = 114
+
+Delta = 49
+Gk = 58
+Delta = 67
+Gk = 73
+Delta = 103
+Gk = 106
+125634
+DELTA = 142
+FOPT = 114
+
+Delta = 95
+Gk = 101
+Delta = 175
+Gk = 178
+125643
+DELTA = 220
+FOPT = 114
+
+Delta = 19
+Gk = 31
+Delta = 37
+Gk = 46
+Delta = 73
+Gk = 79
+Delta = 129
+Gk = 132
+126345
+DELTA = 157
+FOPT = 114
+
+Delta = 53
+Gk = 59
+Delta = 86
+Gk = 89
+126354
+DELTA = 125
+FOPT = 114
+
+Delta = 65
+Gk = 74
+Delta = 145
+Gk = 151
+
+Delta = 121
+Gk = 127
+
+Delta = 111
+Gk = 120
+
+Delta = 93
+Gk = 108
+Delta = 110
+Gk = 122
+
+Delta = 129
+Gk = 141
+
+Delta = 109
+Gk = 121
+
+Delta = 121
+Gk = 133
+
+Delta = 13
+Gk = 28
+Delta = 103
+Gk = 115
+Delta = 180
+Gk = 189
+
+Delta = 124
+Gk = 133
+
+Delta = 119
+Gk = 128
+
+Delta = 93
+Gk = 105
+Delta = 110
+Gk = 119
+
+Delta = 109
+Gk = 118
+
+Delta = 121
+Gk = 130
+
+Delta = 69
+Gk = 81
+Delta = 115
+Gk = 124
+
+Delta = 157
+Gk = 166
+
+Delta = 94
+Gk = 103
+Delta = 182
+Gk = 188
+
+Delta = 112
+Gk = 118
+
+Delta = 20
+Gk = 32
+Delta = 108
+Gk = 117
+
+Delta = 38
+Gk = 47
+Delta = 55
+Gk = 61
+Delta = 76
+Gk = 79
+146325
+DELTA = 104
+FOPT = 104
+
+Delta = 54
+Gk = 60
+Delta = 100
+Gk = 103
+146352
+DELTA = 104
+FOPT = 104
+
+Delta = 112
+Gk = 121
+
+Delta = 33
+Gk = 48
+Delta = 79
+Gk = 91
+Delta = 156
+Gk = 165
+
+Delta = 121
+Gk = 130
+
+Delta = 95
+Gk = 104
+Delta = 113
+Gk = 119
+
+Delta = 141
+Gk = 147
+
+Delta = 121
+Gk = 133
+
+Delta = 66
+Gk = 78
+Delta = 156
+Gk = 165
+
+Delta = 146
+Gk = 155
+
+Delta = 73
+Gk = 82
+Delta = 161
+Gk = 167
+
+Delta = 91
+Gk = 97
+Delta = 108
+Gk = 111
+154632
+DELTA = 112
+FOPT = 104
+
+Delta = 58
+Gk = 70
+Delta = 146
+Gk = 155
+
+Delta = 76
+Gk = 85
+Delta = 93
+Gk = 99
+Delta = 135
+Gk = 138
+156324
+DELTA = 174
+FOPT = 104
+
+Delta = 112
+Gk = 118
+
+Delta = 104
+Gk = 113
+
+Delta = 9
+Gk = 24
+Delta = 97
+Gk = 109
+
+Delta = 27
+Gk = 39
+Delta = 44
+Gk = 53
+Delta = 86
+Gk = 92
+Delta = 142
+Gk = 145
+163245
+DELTA = 170
+FOPT = 104
+
+Delta = 65
+Gk = 71
+Delta = 98
+Gk = 101
+163254
+DELTA = 137
+FOPT = 104
+
+Delta = 63
+Gk = 72
+Delta = 153
+Gk = 159
+
+Delta = 119
+Gk = 125
+
+Delta = 43
+Gk = 52
+Delta = 89
+Gk = 95
+Delta = 131
+Gk = 134
+163524
+DELTA = 170
+FOPT = 104
+
+Delta = 76
+Gk = 82
+Delta = 166
+Gk = 169
+163542
+DELTA = 170
+FOPT = 104
+
+Delta = 55
+Gk = 67
+Delta = 145
+Gk = 154
+
+Delta = 135
+Gk = 144
+
+Delta = 111
+Gk = 120
+
+Delta = 101
+Gk = 113
+
+
+3
+104
+1 6 3 5 4 2 
