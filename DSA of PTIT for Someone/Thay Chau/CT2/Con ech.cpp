@@ -11,10 +11,7 @@ int main(){
 		for(int i = 1; i <= n; i ++){
 			f[i] = 0;
 			for(int j = 1; j <= 3; j ++){
-				if(j <= i){
-					f[i] += f[i - j] % mod;
-					f[i] %= mod;
-				}
+				if(j <= i) f[i] += f[i - j];
 			}
 		}
 		cout << f[n] << endl;
