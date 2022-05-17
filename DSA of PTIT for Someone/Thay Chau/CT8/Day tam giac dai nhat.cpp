@@ -8,7 +8,7 @@ int main() {
 		int n; cin >> n;
 		vector<int> a(n);
 		for(auto &x: a) cin >> x;
-		a.pb(0);
+		a.push_back(0);
 		int cnt = 1;
 		vector<pair<int, int> > b;
 		b.clear();
@@ -16,19 +16,19 @@ int main() {
 			if (a[i] > a[i - 1]) 
 				cnt++;
 			else {
-				b.pb({ i, cnt });
+				b.push_back({ i, cnt });
 				cnt = 1;
 			}
 		}
 		int res = 0;
 		for (int i = 0; i < b.size(); i++) {
 			int c = 0;
-			for (int j = b[i].f; j < n && j > 0; j++) {
+			for (int j = b[i].first; j < n && j > 0; j++) {
 				if (a[j] < a[j - 1]) c ++;
 				else 
 					break;
 			}
-			res = max(res, b[i].s + c);
+			res = max(res, b[i].second + c);
 		}
 		cout << res << endl;
 	}
