@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int MOD = 1000000007;
-const int maxN = 505*10;
+const int maxN = 205;
 const int maxS = maxN*maxN;
 int nTest, n, a, x[10*maxN], dp[2][10*maxS];
 int add(int &a, int b) {
