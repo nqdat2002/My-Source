@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-const int p = 123456789
+const int p = 123456789;
 ll Power(ll n, ll k){
 	if(k == 0)
 		return 1;
