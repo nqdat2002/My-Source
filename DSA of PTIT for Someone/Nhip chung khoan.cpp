@@ -18,10 +18,13 @@ void result(int price[], int res[], int n) {
     cout << endl;
 }
 int main() {
-    int n; cin >> n;
-    int arr[n], res[n];
-    for (int i = 0; i < n; i++)
-        cin >> arr[i];
-    result(arr, res, n);
+    int t; cin >> t;
+    while(t--){
+        int n; cin >> n;
+        int arr[n], res[n];
+        for (int i = 0; i < n; i++)
+            cin >> arr[i];
+        result(arr, res, n);
+    }
     return 0;
 }
