@@ -10,7 +10,7 @@ int main(){
 		if(str.size() == 1)
 			r = (str[0] - '0') % 4;
 		else{
-			r = (str[str.size() - 1] - '0') * 10 + str[str.size() - 1] - '0';
+			r = (str[str.size() - 2] - '0') * 10 + str[str.size() - 1] - '0';
 			r %= 4;
 		}
 		if (r == 0) 
