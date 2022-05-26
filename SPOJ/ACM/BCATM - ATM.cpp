@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+const int oo = 1e9;
 int n, S, a[35], res, cnt;
 void init(){
 	cin >> n >> S;
