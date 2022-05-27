@@ -37,6 +37,7 @@ void FileIO(){
 // Program: Xau con doi xung dain nhat
 // -------------------  Your code STARTS here !!!---------------------------
 
+int n;
 int f[1005][1005] = {0};
 string s;
 int dp(string s){
@@ -63,35 +64,11 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-
+    
     int t; cin >> t;
     while(t--){
         cin >> s;
-        int n = s.length();
-        int res = 1;
-        for(int i = 0; i < n; i ++){
-            int u = i, v = i;
-            while(u >= 0 && v < n){
-                if(s[u] == s[v]){
-                    res = max(res, v - u + 1);
-                    --u;
-                    ++v;
-                }
-                else break;
-            }
-        }
-        for(int i = 0; i < n - 1; i ++){
-            int u = i, v = i + 1;
-            while(u >= 0 && v < n){
-                if(s[u] == s[v]){
-                    res = max(res, v - u + 1);
-                    --u;
-                    ++v;
-                }
-                else break;
-            }
-        }
-        cout << res << endl;
+        cout << dp(s) << endl;
     }
     return 0;
 }
