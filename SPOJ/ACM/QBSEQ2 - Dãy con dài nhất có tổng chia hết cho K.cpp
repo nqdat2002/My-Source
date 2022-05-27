@@ -1,20 +1,28 @@
 #include <bits/stdc++.h>
+#define endl "\n"
 using namespace std;
-typedef long long ll;
-int main() {
-	int t = 1;
-	while (t--) {
-		int n, k; cin >> n >> k;
-		int dp[1005][1005];
-		dp[0][0] = 0;
-		for(int i = 1; i <= n; i++) dp[0][i] = -1e9;
-		for(int i = 1; i <= n; i++) {
-			int x; cin >> x;
-			x %= k;
-			for(int j = 0; j < k; j++)
-				dp[i][j] = max(dp[i - 1][j], dp[i - 1][(j + k - x) % k] + 1);
-		}
-		cout << dp[n][0] << endl;
-	}
-	return 0;
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    int n, k;
+    cin >> n >> k;
+    vector<long long> a(n + 1);
+    vector<vector<long long>> f(n + 1, vector<long long>(k, 0));
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> a[i];
+        a[i] %= k;
+    }
+    for (int i = 1; i < k; i++)
+        f[1][i] = -1e18;
+    f[1][a[1]] = 1;
+    for (int i = 2; i <= n; i++)
+    {
+        for (int j = 0; j < k; j++)
+        {
+            f[i][j] = max(f[i - 1][j], f[i - 1][(j - a[i] + k) % k] + 1);
+        }
+    }
+    cout << f[n][0];
 }
