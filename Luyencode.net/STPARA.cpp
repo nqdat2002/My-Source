@@ -1,7 +1,4 @@
 #include <bits/stdc++.h>
-#define MOD 1000000007
-#define base 31
-#define Pi 3.141592654
 using namespace std;
 
 typedef long long ll;
@@ -12,7 +9,7 @@ typedef vector<int> vti;
 
 ll a[N];
 
-main() {
+int main() {
     while (1) {
         int n;
         cin >> n;
